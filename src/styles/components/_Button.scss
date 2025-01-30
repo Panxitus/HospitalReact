@@ -1,3 +1,4 @@
+
 .button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -5,9 +6,10 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
   
-  .button:disabled {
+  
+  &_disabled {
     background-color: #cccccc;
     cursor: not-allowed;
   }
+}

@@ -15,8 +15,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
-
-.button:disabled {
+.button_disabled {
   background-color: #cccccc;
   cursor: not-allowed;
 }
