@@ -1,7 +1,8 @@
+import Banner from "../Banner/Banner"
+
 const Home = () => {
   return(
-    <h1>Yo soy tu home</h1>  
+    <Banner/> 
     )
 }
-
 export default Home
