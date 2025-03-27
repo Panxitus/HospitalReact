@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $navbar-bg-color;
+    padding: 10px 20px;
+
+    .logo {
+        flex: 1;
+        img {
+            max-height: 50px;
+        }
+    }
+
+    .nav-links {
+        flex: 2;
+        display: flex;
+        justify-content: center;
+
+        a {
+            color: $navbar-link-color;
+            text-decoration: none;
+            padding: 14px 20px;
+
+            &:hover {
+                background-color: $navbar-hover-bg-color;
+                color: $navbar-hover-color;
+            }
+
+            &.active {
+                background-color: $navbar-active-bg-color;
+                color: $navbar-active-color;
+            }
+        }
+    }
+
+    .button-container {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            background-color: $button-bg-color;
+            color: $button-text-color;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: darken($button-bg-color, 10%);
+            }
+        }
+    }
+}

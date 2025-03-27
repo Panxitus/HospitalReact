@@ -1,4 +1,13 @@
+//abstract
+@import 'abstracts/variables';
 
-
+// base
 @import 'base/reset';
+
+//components
 @import 'components/banner';
+@import 'components/navbar';
+
+
+//layout
+@import 'layout/container';
