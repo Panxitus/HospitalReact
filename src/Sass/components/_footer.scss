@@ -2,23 +2,35 @@
     background-color: $footer-bg-color;
     color: $footer-text-color;
     padding: 20px 0;
-    text-align: center;
+    display: flex;
+    grid-template-columns: repeat(3, $footer-column-width);
+    gap: 20px;
 
-    .footer-links {
-        margin-bottom: 10px;
+    .footer-column {
+        padding: 0 10px;
+
+        h3 {
+            margin-bottom: 10px;
+        }
 
         a {
             color: $footer-link-color;
             text-decoration: none;
-            margin: 0 10px;
+            display: block;
+            margin-bottom: 5px;
 
             &:hover {
                 color: $footer-link-hover-color;
             }
         }
-    }
 
-    .footer-copy {
-        font-size: 0.9rem;
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+
+            a {
+                font-size: 1.5rem;
+            }
+        }
     }
 }

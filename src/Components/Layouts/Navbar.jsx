@@ -6,10 +6,10 @@ const Navbar = () => {
                 <img src={logo} alt="Logo Corporativo" />
             </div>
             <div className="nav-links">
-                <a href="#home" className="active">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#services">Servicios</a>
+                <a href="#about">Sobre Nosotros</a>
+                <a href="#contact">Contacto</a>
             </div>
             <div className="button-container">
                 <button>Agendar Horas</button>
