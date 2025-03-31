@@ -1,8 +1,14 @@
-import React from 'react'
+import Navbar from "../../Layouts/Navbar"
+
 
 const Nosotrospage = () => {
   return (
-    <div>Hola soy la página de nosotros</div>
+
+    <>
+    <Navbar/>
+    <h1>Hola soy la página de nosotros</h1>
+    </>
+    
   )
 }
 

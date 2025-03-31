@@ -1,6 +1,11 @@
+import Navbar from "../../Layouts/Navbar"
+
 const Contactopage = () => {
   return (
-    <div>Hola soy página de contacto</div>
+    <>
+    <Navbar/>
+    <h1>Hola soy la página de contacto</h1>
+    </>
   )
 }
 

@@ -1,7 +1,11 @@
+import Navbar from "../../Layouts/Navbar"
 
 const Servicepage = () => {
   return (
-    <div>Hola soy página de servicios</div>
+    <>
+    <Navbar/>
+    <h1>Hola soy la página de Servicios</h1>
+    </>
   )
 }
 
