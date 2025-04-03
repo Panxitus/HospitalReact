@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "img":"https://www.ccdm.cl/wp-content/uploads/2023/01/Felipe-Nunez-FICHA.jpg",
+        "Nombre":"Felipe ", 
+        "Apellido":"González Palma",  
+        "Correo":"fgonzalezp@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    },
+    {
+        "id":2,
+        "img":"https://medicina.uc.cl/wp-content/uploads/2022/07/javiera-brierley.jpg",
+        "Nombre":"Javiera ", 
+        "Apellido":"Díaz Toledo",  
+        "Correo":"jtoledot@hospital.com",
+        "Especialidad":"dermatologa", 
+        "Estudios":"Universidad Católica",
+        "Atención":"Lunes - Miercoles"
+    },
+    {
+        "id":3,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxMt-FN1uqrToSoKeYhNRPaJtgD-02y2V3xQ&s",
+        "Nombre":"Andrés ", 
+        "Apellido":"Palma Inostroza",  
+        "Correo":"Apalmai@hospital.com",
+        "Especialidad":"Diabetologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Martes- Miercoles - Jueves"
+    },
+    {
+        "id":4,
+        "img":"https://www.andessaludpuertomontt.cl/wp-content/uploads/2021/06/Cardenas-Lillo-Catalina-960x1280.jpg",
+        "Nombre":"Catalina ", 
+        "Apellido":"Pérez Cotapo",  
+        "Correo":"Cperezc@hospital.com",
+        "Especialidad":"Pediatra", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Miercoles - Viernes"
+    },
+    {
+        "id":5,
+        "img":"https://a.mktgcdn.com/p/xejntar1hWZTOvV4remllb2v-jl1ayGTtADxztii2as/270x341.jpg",
+        "Nombre":"Amanda ", 
+        "Apellido":"Pavez Diaz",  
+        "Correo":"Apavezd@hospital.com",
+        "Especialidad":"psiquiatra", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Martes"
+    },
+    {
+        "id":6,
+        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
+        "Nombre":"Gonzalo ", 
+        "Apellido":"Sepúlveda Abarca",  
+        "Correo":"Gsepulvedaa@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    }
+]

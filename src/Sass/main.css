@@ -315,7 +315,7 @@ template {
 
 .banner {
   position: relative;
-  width: 100vh;
+  width: 100%;
   height: 80vh;
   background-size: cover;
   background-position: center;
@@ -393,8 +393,7 @@ template {
   color: white;
   padding: 20px 0;
   display: flex;
-  grid-template-columns: repeat(3, 33.33%);
-  gap: 20px;
+  justify-content: space-between;
 }
 .footer .footer-column {
   padding: 0 10px;
