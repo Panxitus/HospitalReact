@@ -16,7 +16,7 @@ const Doctores = () => {
     return (
         <div>
             {Doctores.map((doctor) => (
-            <div className="card-container">        
+            <div className="container_card">        
                 <div className="card-doctors" key={doctor.id}>
                     <img src={doctor.img} alt={doctor.img} />
                     <h2>{doctor.Nombre}</h2>

@@ -15,7 +15,7 @@
         "Nombre":"Javiera ", 
         "Apellido":"Díaz Toledo",  
         "Correo":"jtoledot@hospital.com",
-        "Especialidad":"dermatologa", 
+        "Especialidad":"Dermatologa", 
         "Estudios":"Universidad Católica",
         "Atención":"Lunes - Miercoles"
     },
@@ -45,12 +45,52 @@
         "Nombre":"Amanda ", 
         "Apellido":"Pavez Diaz",  
         "Correo":"Apavezd@hospital.com",
-        "Especialidad":"psiquiatra", 
+        "Especialidad":"Psiquiatra", 
         "Estudios":"Universidad de Chile",
         "Atención":"Lunes - Martes"
     },
     {
         "id":6,
+        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
+        "Nombre":"Gonzalo ", 
+        "Apellido":"Sepúlveda Abarca",  
+        "Correo":"Gsepulvedaa@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    },
+    {
+        "id":7,
+        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
+        "Nombre":"Gonzalo ", 
+        "Apellido":"Sepúlveda Abarca",  
+        "Correo":"Gsepulvedaa@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    },
+    {
+        "id":8,
+        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
+        "Nombre":"Gonzalo ", 
+        "Apellido":"Sepúlveda Abarca",  
+        "Correo":"Gsepulvedaa@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    },
+    {
+        "id":9,
+        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
+        "Nombre":"Gonzalo ", 
+        "Apellido":"Sepúlveda Abarca",  
+        "Correo":"Gsepulvedaa@hospital.com",
+        "Especialidad":"Neurologo", 
+        "Estudios":"Universidad de Chile",
+        "Atención":"Lunes - Miercoles - Viernes"
+    },
+    {
+        "id":10,
         "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
         "Nombre":"Gonzalo ", 
         "Apellido":"Sepúlveda Abarca",  
