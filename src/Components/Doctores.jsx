@@ -3,24 +3,24 @@ import { useState, useEffect} from "react";
 const Doctores = () => {
     const [Doctores, setDoctores] = useState ([]);
 
+    const getDoctores = async () =>{
+        const response = await fetch("doctores.json")
+        const data = await response.json()
+        setDoctores(data);
+    }
     useEffect(() => {
-        fetch("doctores.json")
-       .then ((response) => response.json())
-       .then((data) => setDoctores(data.doctores))
-    },[])
+        getDoctores();
+    }, []);
 
-
-return Doctores.map ((doctores) => {
-    return (
-        <div key={doctores.id}>    
-             <img src={doctores.img} alt=""/>
-             <h2>{doctores.nombre}</h2>
-             <p>{doctores.apellido}</p>
-             <p>{doctores.especialidad}</p>
-             <button>Agendar Hora</button>
-        </div>
-      )
-})
+    return Doctores.map((doctor) => {
+        return (
+            <div>
+                <img src={doctor.img} alt={doctor.nombre}/>
+                <h2>{doctor.nombre}</h2>
+                <p>{doctor.descripcion}</p>
+            </div>
+        )
+    })
   
-}
+};
 export default Doctores
