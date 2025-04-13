@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container">
+            <div className="container_footer">
                 <div className="footer-column">
                     <h3>Menú del Hospital</h3>
                     <a href="#home">Home</a>

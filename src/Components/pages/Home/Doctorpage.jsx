@@ -6,9 +6,7 @@ const Doctorpage = () => {
   return (
     <>
      <Navbar/>
-     <div className="card-container">
      <Doctores/>
-     </div>
      <Footer/>
     </>
   )

@@ -11,6 +11,14 @@
         display: inline-block;
         background:red;      
     }
+
+    &_footer{
+        background-color: $footer-bg-color;
+        color: $footer-text-color;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
     
 
 }
