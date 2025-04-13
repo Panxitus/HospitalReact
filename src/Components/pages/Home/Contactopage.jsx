@@ -1,10 +1,15 @@
 import Navbar from "../../Layouts/Navbar"
+import Contacto from "../../Layouts/Contacto"
+import Footer from "../../Layouts/Footer"
+
+
 
 const Contactopage = () => {
   return (
     <>
     <Navbar/>
-    <h1>Hola soy la página de contacto</h1>
+    <Contacto/>
+    <Footer/>
     </>
   )
 }
