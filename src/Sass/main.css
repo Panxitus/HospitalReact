@@ -316,7 +316,6 @@ template {
 .banner {
   position: relative;
   width: 100%;
-  height: 80vh;
   background-size: cover;
   background-position: center;
 }
@@ -422,32 +421,35 @@ template {
   font-size: 1.5rem;
 }
 
-.card-doctors {
+.card_doctors {
+  flex: 1;
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
+  box-sizing: border-box;
   box-shadow: 5px 5px 10px hsl(0, 0%, 0%);
   padding: 20px 20px 20px;
   margin: 10px;
   text-align: center;
   max-width: 350px;
-  display: inline-block;
+  color: #fff;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
 }
-.card-doctors img {
+.card_doctors img {
   max-width: 300px;
   max-height: 200px;
   height: auto;
   border-radius: 10px;
 }
-.card-doctors h2 {
+.card_doctors h2 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   color: hsl(0, 0%, 10%);
 }
-.card-doctors p {
+.card_doctors p {
   font-family: Arial, Helvetica, sans-serif;
   color: hsl(0, 0%, 30%);
 }
-.card-doctors button {
+.card_doctors button {
   background-color: green;
   color: #fff;
   border: none;
@@ -456,7 +458,7 @@ template {
   border-radius: 5px;
   margin-top: 10px;
 }
-.card-doctors button:hover {
+.card_doctors button:hover {
   background-color: #666;
 }
 
@@ -517,18 +519,72 @@ form button:hover {
   background-color: #624ec6;
 }
 
+.section_information {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+.section_information h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #4a4a4a;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.section_information p {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin: 20px 0;
+  padding: 10px;
+}
+.section_information img {
+  width: 200px;
+  height: 200px;
+  max-width: 80%;
+  max-height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  transition: transform 0.3s ease;
+}
+.section_information img:hover {
+  transform: scale(1.1);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
-.container_card {
-  margin: 10px;
-  padding: 20px;
-  border-radius: 5px;
-  display: inline-block;
-  background: red;
+.container_section {
+  background-color: #826afb;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 20px;
+}
+.container_doctors {
+  background-color: #826afb;
+  flex-wrap: wrap;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 20px;
 }
 .container_footer {
   background-color: #333;

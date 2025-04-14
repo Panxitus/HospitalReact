@@ -4,12 +4,27 @@
     margin: 0 auto;
     padding: 20px;
 
-    &_card{
-        margin: 10px;
-        padding: 20px;
-        border-radius: 5px;
-        display: inline-block;
-        background:red;      
+    &_section{
+        background-color: #826afb;
+        text-align: center;
+        flex-wrap: wrap;
+        display:flex ;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 20px 20px;
+    }
+
+    &_doctors{
+        background-color: #826afb;
+        flex-wrap: wrap;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 20px 20px;
     }
 
     &_footer{
@@ -27,5 +42,7 @@
         min-height: 100vh;
         background-color: #826afb;
     }
+
+    
 
 }

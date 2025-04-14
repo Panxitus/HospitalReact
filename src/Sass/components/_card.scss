@@ -1,13 +1,16 @@
-.card-doctors{
+.card_doctors{
+    flex:1;
     border: 1px solid hsl(0, 0%,80%);
     border-radius: 10px;
+    box-sizing: border-box;
     box-shadow: 5px 5px 10px hsl(0, 0%, 0%,);
     padding: 20px 20px 20px;
     margin:10px;
     text-align: center;
     max-width: 350px;
-    display: inline-block;
-
+    color: #fff;
+    background: linear-gradient(to right,#6a11cb, #2575fc);
+    
 
     & img{
         max-width:300px;

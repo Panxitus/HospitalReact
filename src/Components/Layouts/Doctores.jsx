@@ -14,19 +14,17 @@ const Doctores = () => {
     }, []);
   
     return (
-        <div>
+        <div  className="container_doctors" >
             {Doctores.map((doctor) => (
-            <div className="container_card">        
-                <div className="card-doctors" key={doctor.id}>
-                    <img src={doctor.img} alt={doctor.img} />
-                    <h2>{doctor.Nombre}</h2>
-                    <h2>{doctor.Apellido}</h2>
-                    <p>{doctor.Especialidad}</p>
-                    <div className="card-button">
+            <div className="card_doctors" key={doctor.id}>
+                <img src={doctor.img} alt={doctor.img} />
+                <h2>{doctor.Nombre}</h2>
+                <h2>{doctor.Apellido}</h2>
+                <p>{doctor.Especialidad}</p>
+                <div className="card-button">
                     <button>Agendar hora</button> 
-                    </div>
                 </div>
-            </div>
+            </div> 
             ))}
         </div>
     );
