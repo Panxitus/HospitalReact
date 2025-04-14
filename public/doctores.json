@@ -7,7 +7,7 @@
         "Correo":"fgonzalezp@hospital.com",
         "Especialidad":"Neurologo", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
+        "Atencion":"Lunes - Miercoles - Viernes"
     },
     {
         "id":2,
@@ -17,7 +17,7 @@
         "Correo":"jtoledot@hospital.com",
         "Especialidad":"Dermatologa", 
         "Estudios":"Universidad Católica",
-        "Atención":"Lunes - Miercoles"
+        "Atencion":"Lunes - Miercoles"
     },
     {
         "id":3,
@@ -27,7 +27,7 @@
         "Correo":"Apalmai@hospital.com",
         "Especialidad":"Diabetologo", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Martes- Miercoles - Jueves"
+        "Atencion":"Martes- Miercoles - Jueves"
     },
     {
         "id":4,
@@ -37,7 +37,7 @@
         "Correo":"Cperezc@hospital.com",
         "Especialidad":"Pediatra", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Miercoles - Viernes"
+        "Atencion":"Miercoles - Viernes"
     },
     {
         "id":5,
@@ -47,7 +47,7 @@
         "Correo":"Apavezd@hospital.com",
         "Especialidad":"Psiquiatra", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Martes"
+        "Atencion":"Lunes - Martes"
     },
     {
         "id":6,
@@ -57,46 +57,26 @@
         "Correo":"Gsepulvedaa@hospital.com",
         "Especialidad":"Neurologo", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
+        "Atencion":"Lunes - Miercoles - Viernes"
     },
     {
         "id":7,
-        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
-        "Nombre":"Gonzalo ", 
+        "img":"https://medicina.uc.cl/wp-content/uploads/2017/07/alicia_nunez.jpeg",
+        "Nombre":"Valeria ", 
         "Apellido":"Sepúlveda Abarca",  
-        "Correo":"Gsepulvedaa@hospital.com",
-        "Especialidad":"Neurologo", 
+        "Correo":"ValeriaS@hospital.com",
+        "Especialidad":"Traumatologa", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
+        "Atencion":"Lunes - Miercoles - Viernes"
     },
     {
         "id":8,
-        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
-        "Nombre":"Gonzalo ", 
-        "Apellido":"Sepúlveda Abarca",  
-        "Correo":"Gsepulvedaa@hospital.com",
+        "img":"https://medicina.uc.cl/wp-content/uploads/2022/04/Dr.-Sarmiento-.jpg",
+        "Nombre":"Mauricio ", 
+        "Apellido":"Sepúlveda López",  
+        "Correo":"MseulvedaL@hospital.com",
         "Especialidad":"Neurologo", 
         "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
-    },
-    {
-        "id":9,
-        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
-        "Nombre":"Gonzalo ", 
-        "Apellido":"Sepúlveda Abarca",  
-        "Correo":"Gsepulvedaa@hospital.com",
-        "Especialidad":"Neurologo", 
-        "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
-    },
-    {
-        "id":10,
-        "img":"https://www.meds.cl/wp-content/uploads/Gonzalo_Uman%CC%83a-2.jpg.webp",
-        "Nombre":"Gonzalo ", 
-        "Apellido":"Sepúlveda Abarca",  
-        "Correo":"Gsepulvedaa@hospital.com",
-        "Especialidad":"Neurologo", 
-        "Estudios":"Universidad de Chile",
-        "Atención":"Lunes - Miercoles - Viernes"
-    }
+        "Atencion":"Lunes - Miercoles - Viernes"
+    } 
 ]
