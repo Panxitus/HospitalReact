@@ -9,16 +9,16 @@ const Footer = () => {
                 <div className="footer-column">
                     <h3>Menú del Hospital</h3>
                     <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#services">Services</a>
-                    <a href="#contact">Contact</a>
+                    {/* <a href="#about">About</a> */}
+                    <a href="#services">Servicios</a>
+                    <a href="#contact">Contactos</a>
                 </div>
                 <div className="footer-column">
                     <h3>Otras Opciones</h3>
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Service</a>
+                    <a href="#privacy">Privacidad</a>
+                    <a href="#terms">Terminos de Servicios</a>
                     <a href="#faq">FAQ</a>
-                    <a href="#support">Support</a>
+                    <a href="#support">Soporte</a>
                 </div>
                 <div className="footer-column">
                     <h3>Redes Sociales</h3>
