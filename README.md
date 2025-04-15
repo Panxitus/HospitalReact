@@ -1,16 +1,15 @@
-# React + Vite
+# Hospital React
 
 El proyecto Hospital: 
 
 Es una software a la medida del cliente. 
 
-Características del software:
+Características del software: 
 
-1.- Desarrollado con react JXS
-2.- Css utilizando herramienta Sass
-3.- Utilización del patrón 7-1
-
-1. Manejo de DOM virtual en Reactjsx
+1.- Implementación de vistas complejas con ReactJS
+2.- Optimización del DOM virtual y uso de Fragamentos
+3. Uso de referencias  y Callbacks
+4. Manejo de APIrest Simuladas
 
 Explicación: 
 
